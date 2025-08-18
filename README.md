@@ -61,4 +61,5 @@ Each query result is saved in:
 
 git add .
 git commit -m "2. Write a Query to Get a Specific Episode by ID 1-4"
-git push origin main
+git branch -M main
+git push -u origin main
