@@ -41,6 +41,13 @@ We used the `character(id: ID!)` field with IDs **1, 2, 3, 4**.
 - `character-id-4-output.json` → Output of query
 
 
+git add .
+git commit -m "Task 0: Add GraphQL queries and outputs for characters 1-4"
+git branch -M main
+git push -u origin main
+
+
+
 
 
 
@@ -77,3 +84,11 @@ This task uses the `characters(page: Int)` field from the Rick and Morty GraphQL
 - `characters-page-3-output.json` → Output of query for page 3
 - `characters-page-4.graphql` → Query for page 4
 - `characters-page-4-output.json` → Output of query for page 4
+
+
+
+git add .
+git commit -m "Task 1: Add paginated GraphQL queries and outputs for characters (pages 1-4)"
+git push
+
+
